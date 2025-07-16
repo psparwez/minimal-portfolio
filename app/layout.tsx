@@ -1,0 +1,70 @@
+import type React from "react"
+import type { Metadata } from "next"
+import { Montserrat } from "next/font/google"
+import "./globals.css"
+import { ThemeProvider } from "@/components/theme-provider"
+import { Toaster } from 'sonner'
+
+const inter = Montserrat({ subsets: ["latin"] })
+
+export const metadata: Metadata = {
+  title: {
+    default: "Alex Developer - Portfolio",
+    template: "%s | Alex Developer",
+  },
+  description: "Full Stack Developer & UI/UX Designer Portfolio of Alex — building scalable, elegant web apps with React, Node.js, and design precision.",
+  keywords: [
+    "Full Stack Developer",
+    "React Developer",
+    "Node.js",
+    "Portfolio",
+    "Alex Developer",
+    "Web Developer",
+    "UI/UX Designer",
+  ],
+  authors: [{ name: "Alex Developer" }],
+  creator: "Alex Developer",
+  openGraph: {
+    type: "website",
+    url: "",
+    title: "Alex Developer - Portfolio",
+    description:
+      "Explore the portfolio of Alex, a full stack developer focused on performance, scalability, and clean UI/UX.",
+    siteName: "Alex Developer Portfolio",
+    images: [
+      {
+        url: "/og_banner.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Alex Developer Portfolio",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Alex Developer - Portfolio",
+    description:
+      "Full Stack Developer & UI/UX Designer Portfolio of Alex.",
+    creator: "@psparwez",
+    images: ["/og_banner.jpeg"],
+  },
+  themeColor: "#000000",
+};
+
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body className={inter.className}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+          {children}
+          <Toaster richColors />
+        </ThemeProvider>
+      </body>
+    </html>
+  )
+}
