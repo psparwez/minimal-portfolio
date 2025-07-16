@@ -77,7 +77,7 @@ export default function Header() {
                     </div>
                     <div className="flex items-center space-x-2">
                         <ThemeToggle />
-                        <Link href="https://github.com/psparwez">
+                        <Link href="https://github.com/psparwez" aria-label="View GitHub Profile" target="_blank" rel="noopener noreferrer">
                             <Button variant="outline" size="sm">
 
                                 <Github className="w-4 h-4 sm:mr-1" />

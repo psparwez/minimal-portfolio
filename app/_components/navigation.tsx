@@ -32,6 +32,7 @@ export default function Navigation({
                                     ? "border-primary text-primary"
                                     : "border-transparent text-muted-foreground hover:text-foreground"
                             )}
+                            aria-label={`Navigate to ${tab.label} section`}
                         >
                             {tab.label}
                         </button>

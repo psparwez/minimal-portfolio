@@ -32,7 +32,7 @@ export default function ContactCard() {
 
                 {
                     contactItems.map((item, index) => (
-                        <Link href={item.link} key={index}>
+                        <Link href={item.link} key={index} aria-label={`${item.title} links`} >
                             <Card className="w-full md:max-w-xs hover:bg-muted/60 transition-all duration-300">
                                 <CardContent className="flex items-center gap-3 p-2">
                                     <div className="h-16 w-16 rounded-md border border-border bg-background flex items-center justify-center">

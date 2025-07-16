@@ -26,13 +26,14 @@ export default function Projects() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {projects.map((project, index) => (
-                        <Card key={index} className="overflow-hidden hover:bg-muted/60 transition-all duration-300 min-h-min flex flex-col sm:flex-row group p-2">
+                        <Card key={index} className="overflow-hidden hover:bg-muted/60 transition-all duration-300 min-h-min flex flex-col sm:flex-row group p-2"
+                            aria-label={`Project: ${project.title}, Description: ${project.description}, Technologies: ${project.tech.join(', ')}`}>
                             <div className="sm:h-full  min-h-40 min-w-full sm:min-w-40 bg-muted rounded-sm max-w-min ">
                                 <img
                                     src={theme === 'dark' ? (project.image_dark || project.image) : project.image}
                                     alt={project.title}
                                     className="w-full h-full object-cover rounded-sm transition-transform duration-300 group-hover:scale-[1.03]"
-                                />
+                                    aria-label={`Project image for ${project.title}`} />
                             </div>
                             <div className="flex flex-col  ">
                                 <CardHeader className="space-y-0 px-2 sm:px-4 py-2">
@@ -40,12 +41,14 @@ export default function Projects() {
                                         {project.title}
                                         <div className="flex group-hover:opacity-100 sm:opacity-0 transition duration-300">
                                             <Button variant="ghost" className="rounded-full" size="icon" asChild>
-                                                <Link href={project.github} target="_blank" rel="noopener noreferrer">
+                                                <Link href={project.github} target="_blank" rel="noopener noreferrer"
+                                                    aria-label={`View project: ${project.title} on GitHub`}>
                                                     <Github className="w-4 h-4" />
                                                 </Link>
                                             </Button>
                                             <Button variant="ghost" className="rounded-full" size="icon" asChild>
-                                                <Link href={project.live} target="_blank" rel="noopener noreferrer">
+                                                <Link href={project.live} target="_blank" rel="noopener noreferrer"
+                                                    aria-label={`Visit project: ${project.title} live`}>
                                                     <ExternalLink className="w-4 h-4" />
                                                 </Link>
                                             </Button>
@@ -56,7 +59,8 @@ export default function Projects() {
                                 <CardContent className="px-2 sm:px-4 py-2">
                                     <div className="flex flex-wrap gap-2">
                                         {project.tech.map((tech) => (
-                                            <Badge key={tech} variant="secondary" className="text-[10px] text-muted-foreground hover:text-foreground font-medium">
+                                            <Badge key={tech} variant="secondary" className="text-[10px] text-muted-foreground hover:text-foreground font-medium"
+                                                aria-label={`Technology used: ${tech}`}>
                                                 {tech}
                                             </Badge>
                                         ))}

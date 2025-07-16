@@ -13,17 +13,17 @@ export default function Footer() {
                         </div>
                         <div className="flex space-x-4">
                             <Button variant="ghost" size="icon" asChild>
-                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
                                     <Github className="w-4 h-4" />
                                 </a>
                             </Button>
                             <Button variant="ghost" size="icon" asChild>
-                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
                                     <Linkedin className="w-4 h-4" />
                                 </a>
                             </Button>
                             <Button variant="ghost" size="icon" asChild>
-                                <a href="mailto:alex@example.com">
+                                <a href="mailto:alex@example.com" target="_blank" rel="noopener noreferrer" aria-label="Send Email to Alex">
                                     <Mail className="w-4 h-4" />
                                 </a>
                             </Button>

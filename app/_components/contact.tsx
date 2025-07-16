@@ -76,6 +76,8 @@ export default function Contact() {
                                                         id="name"
                                                         placeholder="Your name"
                                                         {...register('name')}
+                                                        aria-label="Your name"
+
                                                     />
                                                     {/* error */}
                                                     {errors.name && <span className="text-xs sm:text-sm text-red-600">{errors.name.message}</span>}
@@ -87,6 +89,7 @@ export default function Contact() {
                                                         type="email"
                                                         placeholder="your.email@example.com"
                                                         {...register('email')}
+                                                        aria-label="Your email address"
 
                                                     />
                                                     {errors.email && <span className="text-xs sm:text-sm text-red-600">{errors.email.message}</span>}
@@ -100,6 +103,7 @@ export default function Contact() {
                                                     id="subject"
                                                     placeholder="What's this about?"
                                                     {...register('subject')}
+                                                    aria-label="Subject of your message"
 
                                                 />
                                                 {errors.subject && <span className="text-xs sm:text-sm text-red-600">{errors.subject.message}</span>}
@@ -112,6 +116,7 @@ export default function Contact() {
                                                     placeholder="Your message..."
                                                     rows={5}
                                                     {...register('message')}
+                                                    aria-label="Your message"
 
                                                 />
                                                 {errors.message && <span className="text-sm text-red-600">{errors.message.message}</span>}
