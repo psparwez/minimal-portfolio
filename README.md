@@ -1,10 +1,10 @@
-# 👋 My Personal Portfolio
+# 👋 Minimal Portfolio 
 
 A sleek and minimal portfolio website built with **Next.js**, showcasing professional experience and projects in a clean, user-friendly design. 💯
 
 ## 📸 Demo Screenshot
 
-![Screenshot](https://minimal-portfolio-ps.vercel.app/og_banner.jpeg)
+![Image](https://github.com/user-attachments/assets/6606991a-6349-4162-9e1f-deae78222d8d)
 
 ---
 
