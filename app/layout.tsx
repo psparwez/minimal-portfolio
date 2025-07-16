@@ -34,12 +34,13 @@ export const metadata: Metadata = {
     siteName: "Alex Developer Portfolio",
     images: [
       {
-        url: "https://minimal-portfolio-ps.vercel.app/og_banner.jpeg",
+        url: "/og_banner.jpeg",
         width: 1200,
         height: 630,
         alt: "Alex Developer Portfolio",
       },
     ],
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
@@ -47,9 +48,11 @@ export const metadata: Metadata = {
     description:
       "Full Stack Developer & UI/UX Designer Portfolio of Alex.",
     creator: "@psparwez",
-    images: ["https://minimal-portfolio-ps.vercel.app/og_banner.jpeg"],
+    images: ["/og_banner.jpeg"],
   },
-  themeColor: "#000000",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 
