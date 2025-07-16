@@ -22,18 +22,19 @@ export const metadata: Metadata = {
     "Web Developer",
     "UI/UX Designer",
   ],
-  authors: [{ name: "Alex Developer" }],
-  creator: "Alex Developer",
+  authors: [{ name: "Ps Parwez", url: "https://github.com/psparwez" }],
+  creator: "Ps Parwez",
+  metadataBase: new URL("https://minimal-portfolio-ps.vercel.app"),
   openGraph: {
     type: "website",
-    url: "",
+    url: "https://minimal-portfolio-ps.vercel.app",
     title: "Alex Developer - Portfolio",
     description:
       "Explore the portfolio of Alex, a full stack developer focused on performance, scalability, and clean UI/UX.",
     siteName: "Alex Developer Portfolio",
     images: [
       {
-        url: "/og_banner.jpeg",
+        url: "https://minimal-portfolio-ps.vercel.app/og_banner.jpeg",
         width: 1200,
         height: 630,
         alt: "Alex Developer Portfolio",
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     description:
       "Full Stack Developer & UI/UX Designer Portfolio of Alex.",
     creator: "@psparwez",
-    images: ["/og_banner.jpeg"],
+    images: ["https://minimal-portfolio-ps.vercel.app/og_banner.jpeg"],
   },
   themeColor: "#000000",
 };
