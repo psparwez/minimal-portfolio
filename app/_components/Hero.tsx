@@ -76,7 +76,7 @@ export default function Hero({ setActiveTab }: HeroProps) {
 
                     <div className="flex justify-between gap-1 items-center">
                         <a
-                            href="/resume.pdf"
+                            href="/resume_dummy.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Open Resume"
