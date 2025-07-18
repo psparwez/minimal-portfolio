@@ -52,7 +52,7 @@ export default function Contact() {
                     isSubmitting ? (
                         <>
                             <Card>
-                                <CardContent className="flex flex-col items-center justify-center h-full">
+                                <CardContent className="flex min-h-80 flex-col items-center justify-center h-full">
                                     <Spinner size={25} />
                                 </CardContent>
                                 <CardHeader>

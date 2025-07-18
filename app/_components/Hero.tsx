@@ -74,7 +74,7 @@ export default function Hero({ setActiveTab }: HeroProps) {
                         </p>
                     </div>
 
-                    <div className="flex justify-between gap-2 items-center">
+                    <div className="flex justify-between gap-1 items-center">
                         <a
                             href="/resume.pdf"
                             target="_blank"

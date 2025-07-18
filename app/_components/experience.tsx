@@ -18,7 +18,7 @@ export default function Experience() {
                             <CardHeader>
                                 <div className="flex justify-between flex-col sm:flex-row items-start gap-1">
                                     <div>
-                                        <CardTitle className="text-base sm:text-lg font-medium">{job.title}</CardTitle>
+                                        <CardTitle className="text-lg font-medium">{job.title}</CardTitle>
                                         <CardDescription className="text-lg font-medium text-primary">{job.company}</CardDescription>
                                     </div>
                                     <div className="sm:text-right text-sm text-muted-foreground">
