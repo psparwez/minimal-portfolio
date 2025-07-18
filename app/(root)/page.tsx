@@ -65,9 +65,9 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen w-full relative">
-      <Header />
+      <Header setActiveTab={setActiveTab} />
       <Navigation activeTab={activeTab} setActiveTab={setActiveTab} />
-      <main className="container mx-auto px-4 lg:px-20 xl:px-32 py-8">{renderActiveTab()}</main>
+      <main className="container mx-auto px-3 lg:px-20 xl:px-32 py-8">{renderActiveTab()}</main>
       <Footer />
     </div>
   )
