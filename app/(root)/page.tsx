@@ -50,7 +50,7 @@ export default function Portfolio() {
   const renderActiveTab = () => {
     switch (activeTab) {
       case "profile":
-        return <Profile />
+        return <Profile setActiveTab={setActiveTab} />
       case "experience":
         return <Experience />
       case "projects":
@@ -65,7 +65,7 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen w-full relative">
-      <Header setActiveTab={setActiveTab} />
+      <Header />
       <Navigation activeTab={activeTab} setActiveTab={setActiveTab} />
       <main className="container mx-auto px-3 lg:px-20 xl:px-32 py-8">{renderActiveTab()}</main>
       <Footer />
