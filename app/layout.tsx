@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: "Alex Developer Portfolio",
     images: [
       {
-        url: "/og_banner.jpeg",
+        url: "/og_bannerr.jpeg",
         width: 1200,
         height: 630,
         alt: "Alex Developer Portfolio",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     description:
       "Full Stack Developer & UI/UX Designer Portfolio of Alex.",
     creator: "@psparwez",
-    images: ["/og_banner.jpeg"],
+    images: ["/og_bannerr.jpeg"],
   },
   icons: {
     icon: "/favicon.ico",
