@@ -4,7 +4,7 @@ A sleek and minimal portfolio website built with **Next.js**, showcasing profess
 
 ## 📸 Demo Screenshot
 
-![Image](https://minimal-portfolio-ps.vercel.app/og_banner.jpeg)
+![Image](./public/og_bannerr.jpeg)
 
 ---
 
