@@ -49,7 +49,7 @@ export default function Navigation({
                                 <button
                                     onClick={() => setActiveTab(tab.id)}
                                     className={cn(
-                                        "py-4 px-2 text-[10px] font-medium border-b-2 transition-colors flex flex-col gap-1 items-center justify-between w-full m-0",
+                                        "py-4 px-2 text-[10px] font-medium border-b-2 transition-colors flex flex-col gap-1 items-center justify-between w-full m-0 cursor-pointer",
                                         activeTab === tab.id
                                             ? "border-primary text-primary"
                                             : "border-transparent text-muted-foreground hover:text-foreground"
@@ -63,7 +63,7 @@ export default function Navigation({
                                 <button
                                     onClick={() => setActiveTab(tab.id)}
                                     className={cn(
-                                        "py-4 px-2 text-sm font-medium border-b-2 transition-colors",
+                                        "py-4 px-2 text-sm font-medium border-b-2 transition-colors cursor-pointer",
                                         activeTab === tab.id
                                             ? "border-primary text-primary"
                                             : "border-transparent text-muted-foreground hover:text-foreground"
