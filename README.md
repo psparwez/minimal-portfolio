@@ -74,3 +74,11 @@ npm start
 
 ---
 
+---
+### Reporting Issues
+
+If you encounter any bugs or have suggestions, please open an issue on the [GitHub Issues page](https://github.com/psparwez/minimal-portfolio/issues).
+
+I look forward to hearing from you and collaborating!
+<br />
+
