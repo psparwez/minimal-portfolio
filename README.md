@@ -6,6 +6,10 @@ A sleek and minimal portfolio website built with **Next.js**, showcasing profess
 
 ![Image](./public/og_bannerr.jpeg)
 
+<div align="center">
+   <a href="https://minimal-portfolio-ps.vercel.app"><strong>➥ Live Demo</strong></a>
+</div>
+
 ---
 
 ## 🚀 Getting Started
@@ -82,3 +86,5 @@ If you encounter any bugs or have suggestions, please open an issue on the [GitH
 I look forward to hearing from you and collaborating!
 <br />
 
+<br><hr>
+[🔼 Back to top](#)
