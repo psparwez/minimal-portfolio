@@ -144,8 +144,8 @@ importers:
         specifier: ^7.67.0
         version: 7.68.0(react@19.2.3)
       react-hot-spinner:
-        specifier: ^0.0.2
-        version: 0.0.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        specifier: ^0.0.4
+        version: 0.0.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       react-resizable-panels:
         specifier: ^4.0.15
         version: 4.0.15(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -4033,8 +4033,8 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
 
-  react-hot-spinner@0.0.2:
-    resolution: {integrity: sha512-q+iDwvk5IaK7DZ7GJ5nFPTQzmLF5uhYXY0tvm0vPvCushoZyYvSv+OD/tHN134TXYWnWi3HoF7Gaxmhwf96iwg==}
+  react-hot-spinner@0.0.4:
+    resolution: {integrity: sha512-5uGunnfbry5ECp+Igj9z25fR1nb3t2lncsXBfxkG8ugMsiwYW5Y9GWtbXd6K21vbJvj19SP8ozXXWvtNzZRBBA==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
@@ -8896,10 +8896,12 @@ snapshots:
     dependencies:
       react: 19.2.3
 
-  react-hot-spinner@0.0.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
+  react-hot-spinner@0.0.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
+      clsx: 2.1.1
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
+      tailwind-merge: 3.4.0
 
   react-is@16.13.1: {}
 
