@@ -56,7 +56,7 @@
     "react-hook-form": "^7.71.1",
     "react-hot-spinner": "^0.0.4",
     "react-resizable-panels": "^4.0.15",
-    "recharts": "2.15.0",
+    "recharts": "3.7.0",
     "sanitize-html": "^2.17.0",
     "shadcn": "latest",
     "sonner": "^2.0.7",
