@@ -57,7 +57,7 @@
     "react-hot-spinner": "^0.0.4",
     "react-resizable-panels": "^4.0.15",
     "recharts": "3.7.0",
-    "sanitize-html": "^2.17.0",
+    "sanitize-html": "^2.17.1",
     "shadcn": "latest",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.4.0",
