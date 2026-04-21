@@ -147,8 +147,8 @@ importers:
         specifier: ^0.0.4
         version: 0.0.4(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react-resizable-panels:
-        specifier: ^4.0.15
-        version: 4.0.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: ^4.10.0
+        version: 4.10.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       recharts:
         specifier: 3.7.0
         version: 3.7.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react-is@18.3.1)(react@19.2.4)(redux@5.0.1)
@@ -157,7 +157,7 @@ importers:
         version: 2.17.2
       shadcn:
         specifier: latest
-        version: 4.2.0(@types/node@25.5.0)(typescript@5.9.3)
+        version: 4.4.0(@types/node@25.5.0)(typescript@5.9.3)
       sonner:
         specifier: ^2.0.7
         version: 2.0.7(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -3854,8 +3854,8 @@ packages:
       '@types/react':
         optional: true
 
-  react-resizable-panels@4.0.15:
-    resolution: {integrity: sha512-+ygM/EI2h4Qc/cl2fasQ2qwOgNfpQwXLNTU5PqhhPerliX+wnbf7ejcqran7lz3BqABzjddf0pJ3j3G/+A0v9Q==}
+  react-resizable-panels@4.10.0:
+    resolution: {integrity: sha512-frjewRQt7TCv/vCH1pJfjZ7RxAhr5pKuqVQtVgzFq/vherxBFOWyC3xMbryx5Ti2wylViGUFc93Etg4rB3E0UA==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -4004,8 +4004,8 @@ packages:
   setprototypeof@1.2.0:
     resolution: {integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==}
 
-  shadcn@4.2.0:
-    resolution: {integrity: sha512-ZDuV340itidaUd4Gi1BxQX+Y7Ush6BHp6URZBM2RyxUUBZ6yFtOWIr4nVY+Ro+YRSpo82v7JrsmtcU5xoBCMJQ==}
+  shadcn@4.4.0:
+    resolution: {integrity: sha512-0V1AjVktKwhK1e0ONXb9SeBoyJePH04iTSJeMjl9eROqjjyb8OoWYtWDI39UdBU3GzpUlFBJFohhB9c6fGOkQA==}
     hasBin: true
 
   sharp@0.34.5:
@@ -8195,7 +8195,7 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.2.14
 
-  react-resizable-panels@4.0.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
+  react-resizable-panels@4.10.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
     dependencies:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
@@ -8396,7 +8396,7 @@ snapshots:
 
   setprototypeof@1.2.0: {}
 
-  shadcn@4.2.0(@types/node@25.5.0)(typescript@5.9.3):
+  shadcn@4.4.0(@types/node@25.5.0)(typescript@5.9.3):
     dependencies:
       '@babel/core': 7.28.5
       '@babel/parser': 7.28.5
